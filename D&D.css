@@ -1,0 +1,21 @@
+.board{
+  width: 1215px;
+  height: 640px;
+
+}
+.square {
+  float: left;
+  width : 80px;
+  height: 80px;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.white{
+  background-colo:white;
+}
+.player{
+    font-size: 20px;
+    cursor: pointer;
+}
